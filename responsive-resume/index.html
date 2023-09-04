@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Online Responsive Resume Demo</title>
+  <meta name="author" content="Jake Rocheleau">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Simonetta:400,900|Balthazar">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div id="w" itemscope itemtype="http://schema.org/Person">
+		<header class="clearfix">
+			<div id="info">			
+				<h1><span itemprop="name">Hannah Johnston</span></h1>
+				<h3><span itemprop="jobTitle"></span></h3>
+				<small itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				  <span itemprop="addressLocality">Sterling</span>, 
+				  <span itemprop="addressRegion">Virgina</span>, 
+				  <span itemprop="addressCountry">USA</span>
+				</small>
+				<small><span itemprop="email">hjjohnston@bsu.edu</span></small>
+			</div>
+			
+			<div id="photo">
+				<img src="/responsive-resume/images/profilePicture.png" alt="Hannah Johnston resume photo avatar" itemprop="image" />
+			</div>
+		</header>
+		
+		<section id="profile">
+			<h2>My History &amp; Profile</h2>
+			<p itemprop="description">I'm a 21 year Ball State student. I am a senior on the
+				field hockey team and I have been coding since I started college.
+
+			</p>
+			
+			<p> I graduated High School in summer 2020 and will be graduating from college
+				in winter 2024.
+		</section>
+		
+		<section id="skills" class="clearfix" itemscope itemtype="http://schema.org/ItemList">
+			<h2 itemprop="name">Skillset</h2>
+			<section id="skills-left">
+				<h4 itemprop="about">Development</h4>
+				<ul>
+					<li itemprop="itemListElement">HTML/CSS</li>
+					<li itemprop="itemListElement">JavaScript</li>
+					<li itemprop="itemListElement">Java</li>
+					<li itemprop="itemListElement">Python</li>
+					<li itemprop="itemListElement">React</li>
+
+				</ul>
+			</section>
+
+		</section>
+		
+		<section id="education">
+			<h2>Past Education</h2>
+			<p><span itemprop="alumniOf">Dominion High School</span> graduate of 2020.</p>
+		</section>
+		
+		<section id="experience">
+			<h2>Work Experience</h2>
+			<p>Ball State Teachers Assitant ~ 2021-2023</p>
+			<p>Field Hockey Ultamte Defender Camp Coach~ 2022-2023</p>
+		</section>
+		
+		<section id="articles">
+	</div>
+</body>
+</html>
